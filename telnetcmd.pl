@@ -8,11 +8,11 @@ use Getopt::Long qw(GetOptions);
 Getopt::Long::Configure ('bundling');
 
 
-        ######################################################
-        #           		                             #
-        # Login to a remote host & execute a defined command #
-        #                       	                     #
-        ######################################################
+        #######################################################################################
+        #           									      #
+        # Login to a remote host, executes a defined command and writes the results to a file #
+        #                       							      #
+        #######################################################################################
 
 
 ### Variables
