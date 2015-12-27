@@ -23,7 +23,6 @@ my $cmd;					# Stores command to execute on a remote host
 my $telnet = new Net::Telnet (Timeout=>360);	# Sets the timeout (if command execution lasts too long the command will be automatically aborted)
 my @output;					# Stores command output from the remote host
 my $outfile;					# File to command output will be written
-my $prompt = 0;					# Asks what to do next
 
 # Subroutine "usage" - prints instructions
 sub usage_sub {
