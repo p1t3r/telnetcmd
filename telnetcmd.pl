@@ -1,8 +1,6 @@
 #!/usr/bin/perl
 use v5.20;
 use strict;
-use warnings;
-use diagnostics;
 use Net::Telnet ();
 use Getopt::Long qw(GetOptions);
 Getopt::Long::Configure ('bundling');
